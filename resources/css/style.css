@@ -1,0 +1,40 @@
+
+/* Universal Format*/
+
+html, body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+
+}
+
+header img {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+}
+ header nav {
+  padding-right: 20px;
+}
+header span {
+  display: inline-block;
+  text-decoration: underline;
+  color: white;
+}
