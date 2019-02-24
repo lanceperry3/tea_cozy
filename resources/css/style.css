@@ -23,6 +23,10 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   background-color: black;
+  margin: 0;
+ padding: 0;
+
+
 }
 
 header img {
@@ -30,13 +34,14 @@ header img {
   align-items: center;
   height: 50px;
   padding: 10px;
+
 }
  header nav {
   padding-right: 20px;
 }
 header span a {
   display: inline-block;
-  padding: 10px;
+  padding-right: 20px;
   text-decoration: underline;
   color: seashell;
 }
@@ -54,7 +59,7 @@ header span a {
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 1200px;
+  max-width: 1200px;
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   background-position: center;
@@ -69,8 +74,38 @@ header span a {
 
 }
 
+/* Tea of the Month */
+
+.TeaMonthMain {
+  max-width: 1000px;
+  margin: 80px auto;
+
+}
 
 
+ .TeaMonth{
+   background-color: black;
+   width: 100%;
+   align-items: Top;
+}
+
+.Teas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Tea img {
+  width: 300px;
+  height: 200px;
+  margin: 0;
+  padding: 10px 15px
+}
+
+.Tea p {
+  padding: 0;
+  margin: 0;
+}
 
 
 
