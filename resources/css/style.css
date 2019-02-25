@@ -48,15 +48,10 @@ header span a {
 }
 
 
-/* Body universal*/
-
-
-
 /* Our Mission */
 
 .ourmissionimg {
   display: flex;
-
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -115,8 +110,10 @@ header span a {
 .LocationInfo {
   text-align: center;
   flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
+  padding: 0;
   height: 500px;
   max-width: 1200px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
@@ -133,20 +130,15 @@ header span a {
   margin: 0 auto;
   max-width: 1060px;
   height: 300px;
-
-
 }
-
 .Location {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 300px;
-
   margin: 0 20px;
   background-color: black;
   opacity: 1;
-
 }
 .Location span {
   display: block;
@@ -155,10 +147,17 @@ header span a {
   padding: 20px 0;
 }
 
+/* Footer */
 
-
-
-
+.ContactInfo  {
+  height: 200px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.copyright {
+  text-align: left;
+}
 
 
 
